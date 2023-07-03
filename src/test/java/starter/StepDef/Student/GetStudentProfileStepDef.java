@@ -1,7 +1,6 @@
 package starter.StepDef.Student;
 
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import net.serenitybdd.rest.SerenityRest;
@@ -38,7 +37,7 @@ public class GetStudentProfileStepDef {
         SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
 
-    @Given("Get show student profile with wrong path {string}")
+    @And("Get show student profile with wrong path {string}")
     public void getShowStudentProfileInvalidPath(String path){
         studentAPI.getShowStudentProfile(path);
     }
