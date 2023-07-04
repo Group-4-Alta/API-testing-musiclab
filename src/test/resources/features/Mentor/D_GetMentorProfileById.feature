@@ -1,5 +1,5 @@
 Feature: Get mentor profile by id mentor
-  @Test @PositiveCase @GetProfileByIDMentor
+  @TestingMentor
   Scenario: Get mentor profile by id mentor with available id parameter
     Given User login mentor normal account
     And Get mentor profile by id mentor with available id parameter 2
@@ -8,7 +8,7 @@ Feature: Get mentor profile by id mentor
     And Validate response body for message should be "success show mentor profile"
     And Validate Message JSON Schema
 
-  @Test @PositiveCase @GetProfileByIDMentor
+  @TestingMentor
   Scenario: Get mentor mentor by id mentor with exceed id parameter
     Given User login student normal account
     And mentor profile by id mentor with unavailable id parameter 50

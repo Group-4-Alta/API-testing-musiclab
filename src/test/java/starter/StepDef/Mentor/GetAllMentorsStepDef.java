@@ -30,11 +30,6 @@ public class GetAllMentorsStepDef {
         SerenityRest.when().get(MentorAPI.GET_ALL_MENTORS_PATH_1);
     }
 
-    @And("Validate response body for message should be {string}")
-    public void validateResponseBodyForMessageShouldBe(String message) {
-        SerenityRest.and().body(MusiclabResponses.MESSAGE, equalTo(message));
-    }
-
     //GET ALL MENTORS INVALID PARAM A
 
     @And("Get all mentors with invalid path, with page {int}, limit {int}, name {string}")
@@ -81,9 +76,9 @@ public class GetAllMentorsStepDef {
     }
 
     //GET ALL MENTORS INVALID PARAM C
-    @And("Get all mentors with unavailable parameter, with rating {int}, qualification {string}")
-    public void getAllMentorsWithUnavailableParameterWithRatingQualification(int rating, String qualification) {
-        mentorAPI.getAllMentorsC(rating, qualification);
+    @And("Get all mentors with unavailable parameter, with rating {string}, qualification {string}")
+    public void getAllMentorsWithUnavailableParameterWithRatingQualification(String rating, String qualification) {
+        mentorAPI.getAllMentorsInvalidC(rating, qualification);
     }
 
     @When("Send GET request for unavailable parameter all mentors C")
@@ -94,6 +89,7 @@ public class GetAllMentorsStepDef {
     //GET ALL MENTORS EMPTY PARAMETER
     @And("Get all mentors with all parameter are empty")
     public void getAllMentorsWithAllParameterAreEmpty() {
+
         mentorAPI.getAllMentorsWithEmptyParam();
     }
 

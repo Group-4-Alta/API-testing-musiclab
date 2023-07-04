@@ -1,5 +1,5 @@
 Feature: Get mentor profile
-  @Test @PositiveCase @GetMentorProfile
+  @TestingMentor
   Scenario: Get mentor profile with valid path
     Given User login mentor normal account
     And Get profile mentor with valid path "profile"
@@ -8,7 +8,7 @@ Feature: Get mentor profile
     And Validate response body for message should be "success show mentor profile"
     And Validate Message JSON Schema
 
-  @Test @NegativeCase @GetMentorProfile
+  @TestingMentor
   Scenario: Get mentor profile with invalid path
     Given User login mentor normal account
     And Get profile mentor with invalid path "profilezzz"

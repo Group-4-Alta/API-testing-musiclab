@@ -1,5 +1,5 @@
 Feature: Get top mentor by rating
-  @Test @PositiveCase @GetTopMentor
+  @TestingMentor
   Scenario: Get all mentor by rating with valid path
     Given User login mentor normal account
     And Get Top mentor by rating per weeks with valid path "topweek"
@@ -8,7 +8,7 @@ Feature: Get top mentor by rating
     And Validate response body for message should be "success show all mentor"
     And Validate Message JSON Schema
 
-  @Test @NegativeCase @GetTopMentor
+  @TestingMentor
   Scenario: Get top mentor by rating with invalid path
     Given User login mentor normal account
     And Get Top mentor by rating per weeks with invalid path "topwek"

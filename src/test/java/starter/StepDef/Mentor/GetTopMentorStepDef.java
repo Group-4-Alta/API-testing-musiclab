@@ -36,4 +36,5 @@ public class GetTopMentorStepDef {
     public void sendGETRequestForTopRatingMentorsWithInvalidPath() {
         SerenityRest.when().get(MentorAPI.GET_TOP_MENTOR_PATH);
     }
+
 }
