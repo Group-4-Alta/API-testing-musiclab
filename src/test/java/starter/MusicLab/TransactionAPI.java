@@ -26,6 +26,31 @@ public class TransactionAPI {
     public void getTransactionMentor (int page, int limit) {
         SerenityRest.given()
                 .header("Authorization", "Bearer "+Constants.ACCESS_TOKEN_MENTOR)
-                .pathParam();
+                .pathParam(MusiclabResponses.PAGE, page)
+                .pathParam(MusiclabResponses.LIMIT, limit);
+    }
+
+    @Step("Get a transaction Mentor invalid")
+    public void getTransactionMentorInv (String page, String limit) {
+        SerenityRest.given()
+                .header("Authorization", "Bearer "+Constants.ACCESS_TOKEN_MENTOR)
+                .pathParam(MusiclabResponses.PAGE, page)
+                .pathParam(MusiclabResponses.LIMIT, limit);
+    }
+
+    @Step("Get a transaction Student")
+    public void getTransactionStudent (int page, int limit) {
+        SerenityRest.given()
+                .header("Authorization", "Bearer "+Constants.ACCESS_TOKEN_STUDENT)
+                .pathParam(MusiclabResponses.PAGE, page)
+                .pathParam(MusiclabResponses.LIMIT, limit);
+    }
+
+    @Step("Get a transaction Student invalid")
+    public void getTransactionStudentInv (String page, String limit) {
+        SerenityRest.given()
+                .header("Authorization", "Bearer "+Constants.ACCESS_TOKEN_STUDENT)
+                .pathParam(MusiclabResponses.PAGE, page)
+                .pathParam(MusiclabResponses.LIMIT, limit);
     }
 }
