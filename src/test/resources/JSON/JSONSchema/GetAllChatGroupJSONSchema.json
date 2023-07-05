@@ -1,0 +1,63 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "mentor_id": {
+              "type": "integer"
+            },
+            "student_id": {
+              "type": "integer"
+            },
+            "avatar": {
+              "type": "string"
+            },
+            "student_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "mentor_id",
+            "student_id",
+            "avatar",
+            "student_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "mentor_id": {
+              "type": "integer"
+            },
+            "student_id": {
+              "type": "integer"
+            },
+            "avatar": {
+              "type": "string"
+            },
+            "student_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "mentor_id",
+            "student_id",
+            "avatar",
+            "student_name"
+          ]
+        }
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "data",
+    "message"
+  ]
+}

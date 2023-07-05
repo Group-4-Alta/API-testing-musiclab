@@ -8,10 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="serenity-rest-starter" />
+        <module name="API-testing-musiclab" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="API-testing-musiclab" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
