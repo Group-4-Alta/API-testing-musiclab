@@ -1,0 +1,55 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "sender_name": {
+              "type": "string"
+            },
+            "chat": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "sender_name",
+            "chat"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "sender_name": {
+              "type": "string"
+            },
+            "chat": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "sender_name",
+            "chat"
+          ]
+        }
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "data",
+    "message"
+  ]
+}
