@@ -2,5 +2,39 @@
 MusicLab is a platform for people who want to study music and music tutors.
 On this platform, application users can buy the tutoring package they want to study and the schedule can be adjusted according to the needs and schedule provided by the tutor.
 
-# WEB Testing - MusicLab
+# API Testing - MusicLab
+This is API Automation Testing Project for [MusicLab](https://music-lab-immersive.netlify.app/). This project was created to complete a Capstone project in the Batch 10 Quality Assurance class at the Alterra Academy Immersive Program. At this project, we perform an API Automation Testing for 10 resources or end points (Auth, Class, Schedule, Transaction, Mentor, Review, Chat, Student, Instrument, Genre). Which those end points
+
+# Testing Documentation
+[Spreadsheet] (https://docs.google.com/spreadsheets/d/1fco_14QtXYskMwSssGu6YYap2_lk5fxwHV-8hjZzVVs/edit#gid=1722139803)
+
+# Report & Recording of API Testing
+[Link Google Drive] (https://drive.google.com/drive/folders/1cZw15eYaFOjcC8aWVZc3wHFqTAw_bWT_?usp=sharing)
+
+# Tool & Technology Stack
+- [Java 8]
+- [Selenium]
+- [Cucumber]
+- [Rest Assured]
+- [Serenity BDD]
+- [Postman]
+- [Intellij IDEA]
+
+# How to Run Project
+- Install  [Java 8](https://www.oracle.com/java/technologies/downloads/#java8) and [Maven](https://maven.apache.org/download.cgi) on your device
+- We recommended you to run this project in Intellij IDEA and make sure install Maven and Cucumber for Java and Gherkins first
+- Clone project on your device
+```
+git clone https://github.com/Group-4-Alta/API-testing-musiclab.git
+```
+- Open IntelliJ IDEA and the project on your device
+- For Run Automation Testing
+```
+mvn clean verify
+```
+
+# Members
+-  [Andersen Sebastian Gunawan](https://github.com/kasg888)
+-  [Dinda Madu Tasya](https://github.com/dindazzz)
+-  [Titi Widiati Ningsih](https://github.com/titiwidiati)
 
