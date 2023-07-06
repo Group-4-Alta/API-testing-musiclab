@@ -6,14 +6,14 @@ On this platform, application users can buy the tutoring package they want to st
 This is API Automation Testing Project for [MusicLab](https://music-lab-immersive.netlify.app/). This project was created to complete a Capstone project in the Batch 10 Quality Assurance class at the Alterra Academy Immersive Program. At this project, we perform an API Automation Testing for 10 resources or end points (Auth, Class, Schedule, Transaction, Mentor, Review, Chat, Student, Instrument, Genre). Which those end points
 
 # Testing Documentation
-[Spreadsheet] (https://docs.google.com/spreadsheets/d/1fco_14QtXYskMwSssGu6YYap2_lk5fxwHV-8hjZzVVs/edit#gid=1722139803)
+[Spreadsheet](https://docs.google.com/spreadsheets/d/1fco_14QtXYskMwSssGu6YYap2_lk5fxwHV-8hjZzVVs/edit#gid=1722139803)
 
 # Manual Testing (Postman)
 [Postman Workspace](https://musiclabteam4.postman.co/workspace/cf18683b-fce0-4954-9674-87f8e67ea35a)
 
 
 # Report & Recording of API Testing
-[Link Google Drive] (https://drive.google.com/drive/folders/1cZw15eYaFOjcC8aWVZc3wHFqTAw_bWT_?usp=sharing)
+[Link Google Drive](https://drive.google.com/drive/folders/1cZw15eYaFOjcC8aWVZc3wHFqTAw_bWT_?usp=sharing)
 
 ![image](https://github.com/titiwidiati/demo_git/blob/main/API%20Result%20Detail.png)
 
