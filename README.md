@@ -8,17 +8,23 @@ This is API Automation Testing Project for [MusicLab](https://music-lab-immersiv
 # Testing Documentation
 [Spreadsheet] (https://docs.google.com/spreadsheets/d/1fco_14QtXYskMwSssGu6YYap2_lk5fxwHV-8hjZzVVs/edit#gid=1722139803)
 
+# Manual Testing (Postman)
+[Postman Workspace](https://musiclabteam4.postman.co/workspace/cf18683b-fce0-4954-9674-87f8e67ea35a)
+
+
 # Report & Recording of API Testing
 [Link Google Drive] (https://drive.google.com/drive/folders/1cZw15eYaFOjcC8aWVZc3wHFqTAw_bWT_?usp=sharing)
 
+![image](https://github.com/titiwidiati/demo_git/blob/main/API%20Result%20Detail.png)
+
 # Tool & Technology Stack
-- [Java 8]
-- [Selenium]
-- [Cucumber]
-- [Rest Assured]
-- [Serenity BDD]
-- [Postman]
-- [Intellij IDEA]
+- Java 8
+- Selenium
+- Cucumber
+- Rest Assured
+- Serenity BDD
+- Postman
+- Intellij IDEA
 
 # How to Run Project
 - Install  [Java 8](https://www.oracle.com/java/technologies/downloads/#java8) and [Maven](https://maven.apache.org/download.cgi) on your device
