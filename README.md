@@ -19,7 +19,6 @@ This is API Automation Testing Project for [MusicLab](https://app.swaggerhub.com
 
 # Tool & Technology Stack
 - Java 8
-- Selenium
 - Cucumber
 - Rest Assured
 - Serenity BDD
